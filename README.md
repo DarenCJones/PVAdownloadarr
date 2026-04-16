@@ -1,4 +1,4 @@
-# Kentucky Beacon Owner Scraper
+# Kentucky PVA Owner Scraper
 
 A Python script that reads parcel IDs from a CSV file, retrieves
 property owner information from Beacon/Schneider county websites, and
