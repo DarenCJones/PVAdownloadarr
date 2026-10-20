@@ -63,7 +63,7 @@ Franklin,112-00-00-002.01,EXAMPLE OWNER,123 EXAMPLE ROAD,EXAMPLE KY 40000
 
 Match on exact parcel IDs, including leading zeros and punctuation. Only county casing and surrounding whitespace are normalized. Combine multiple export address lines into `owner_addr1` when needed, and use the owner's **mailing** address. Conflicting owner rows for the same requested parcel are rejected for review. Missing matches and incomplete mailing addresses remain retryable. Output `url` identifies the local source export; `app_id` is blank. Use a dated source filename and a new output file when refreshing data, because existing successful results are skipped.
 
-Obtaining a current source export is a separate step. Confirm the export includes owner mailing addresses and its refresh date. The public [Franklin County GIS layer](https://wfs.schneidercorp.com/arcgis/rest/services/FranklinCountyKY_WFS/MapServer/0) publishes owner names but does not list mailing-address fields, so it alone cannot supply the full output. Availability, cost, and freshness vary by county. No county export has been acquired or integrated yet.
+Obtaining a current source export is a separate step.
 
 ## Default HTTP mode (experimental)
 
