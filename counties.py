@@ -1,0 +1,26 @@
+"""County application IDs carried over from the original scraper; not independently verified."""
+
+COUNTY_APP_IDS = {
+    "Adair": "903", "Allen": "952", "Anderson": "784", "Ballard": "805",
+    "Barren": "785", "Bath": "934", "Bell": "968", "Bourbon": "949",
+    "Boyd": "786", "Boyle": "876", "Bracken": "970", "Breckinridge": "787",
+    "Bullitt": "943", "Butler": "967", "Caldwell": "957", "Carlisle": "969",
+    "Carter": "894", "Casey": "891", "Clark": "869", "Clay": "1158",
+    "Clinton": "1074", "Crittenden": "941", "Edmonson": "965", "Elliott": "978",
+    "Estill": "1162", "Fleming": "1137", "Floyd": "1000", "Franklin": "1025",
+    "Fulton": "966", "Gallatin": "901", "Garrard": "1145", "Grant": "893",
+    "Green": "956", "Greenup": "882", "Hancock": "878", "Hardin": "879",
+    "Harlan": "877", "Harrison": "1141", "Hart": "926", "Henderson": "884",
+    "Henry": "1070", "Hopkins": "880", "Jackson": "1106", "Jessamine": "864",
+    "Johnson": "883", "Knott": "1184", "Knox": "971", "Larue": "1084",
+    "Laurel": "621", "Leslie": "973", "Letcher": "972", "Lewis": "954",
+    "Lincoln": "944", "Logan": "905", "Lyon": "955", "Madison": "889",
+    "Mason": "904", "McCracken": "854", "McCreary": "999", "McLean": "888",
+    "Meade": "874", "Mercer": "1103", "Metcalfe": "935", "Monroe": "962",
+    "Montgomery": "886", "Morgan": "806", "Muhlenberg": "875", "Nelson": "871",
+    "Oldham": "895", "Owen": "892", "Pendleton": "1157", "Perry": "870",
+    "Pike": "951", "Pulaski": "961", "Rockcastle": "1226", "Rowan": "938",
+    "Scott": "948", "Shelby": "890", "Taylor": "950", "Trigg": "945",
+    "Union": "881", "Warren": "1054", "Washington": "610", "Wayne": "906",
+    "Woodford": "924",
+}
